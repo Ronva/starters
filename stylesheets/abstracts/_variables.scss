@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide SCSS variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+//  Number font family
+$number-font-stack: sans-serif;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+///Background color
+///@type Color
+$bg: white !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #2D2D2D !default;
+
+/// Main brand color
+/// @type Color
+
+/// Accent color
+/// @type Color
+
+/// Warning color
+/// @type Color
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+$darker-light-grey: rgb(220, 220, 220) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+$darker-mid-grey: rgb(108, 108, 108) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+/// Text sizes
+$title: 3.125em;
+$h1: 2.618em;
+$h2: 1.931em;
+$h3: 1.618em;
+$h4: 1.194em;
+$h5: 1em;
+$h6: 0.9em;
+
+/// Shadows
+$gradual-shadow: 0 0 42px rgba(0, 0, 0, 0.08), 0 1px 0 rgba(0, 0, 0, 0.12), 0 0 4px rgba(0, 0, 0, 0.06);
